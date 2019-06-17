@@ -1,8 +1,10 @@
 // COLORS
 $white: #fff;
+$white-opacity: rgba(255, 255, 255, .3);
 
 // CONTEXTUAL COLORS
 $primary-color: $white;
+$primary-color-opacity: $white-opacity;
 
 // FONT SIZES 
 $font-xs: 0.875rem;
@@ -19,3 +21,6 @@ $margin-lg: 2rem;
 
 // BORDER 
 $border-white: 1px solid $primary-color;
+
+// ANIMATIONS/TRANSITIONS
+$menu-transition-speed: .5s;
