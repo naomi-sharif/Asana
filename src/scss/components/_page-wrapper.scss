@@ -1,0 +1,14 @@
+	.page-wrapper {
+  overflow-x: hidden;
+	position: relative;
+	right: 0px;
+	transition: right $menu-transition-speed ease;
+
+	&.page-wrapper--menu-open {
+		right: 260px;
+	}
+
+		@include desktop {
+			position: static;
+		}
+	}
