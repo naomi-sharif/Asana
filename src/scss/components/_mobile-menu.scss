@@ -1,0 +1,18 @@
+.mobile-menu {
+	color: white;
+	position: fixed;
+	top: 0;
+	right: -260px;
+	width: 260px;
+	height: 100%;
+  padding: 10px;
+  transition: right $menu-transition-speed ease;
+
+  @include desktop {
+    display: none;  
+  }
+  
+  &.mobile-menu--open {
+    right: 0;
+  }
+}
