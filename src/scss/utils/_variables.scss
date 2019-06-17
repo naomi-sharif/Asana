@@ -1,11 +1,21 @@
 // COLORS
+$white: #fff;
 
 // CONTEXTUAL COLORS
+$primary-color: $white;
 
 // FONT SIZES 
+$font-xs: 0.875rem;
 $font-xl: 3rem;
 
 // PADDING
+$padding-xs: .5rem;
+$padding-sm: .75rem;
+$padding-md: 1rem;
+$padding-lg: 2rem;
 
 // MARGINS
 $margin-lg: 2rem;
+
+// BORDER 
+$border-white: 1px solid $primary-color;
