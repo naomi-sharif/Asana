@@ -6,8 +6,7 @@ const app = {
   },
 
   toggleHamburger() {
-    // TODO Add js specific class - js-toggle-hamburger.
-    const hamburger = document.querySelector(".hamburger");
+    const hamburger = document.querySelector(".js-toggle-hamburger");
     hamburger.addEventListener("click", () => {
       // TODO Update class to js-active.
       hamburger.classList.toggle("active");
