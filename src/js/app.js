@@ -6,15 +6,20 @@ const app = {
   },
 
   toggleHamburger() {
+    // TODO Add js specific class - js-toggle-hamburger.
     const hamburger = document.querySelector(".hamburger");
     hamburger.addEventListener("click", () => {
+      // TODO Update class to js-active.
       hamburger.classList.toggle("active");
     })
   },
 
   toggleMobileMenu(){
+    // TODO Updated class to use js-page-wrapper.
     const body = document.querySelector(".page-wrapper");
+    // TODO Updated class to use js-mobile-menu.
     const mobileMenu = document.querySelector(".mobile-menu");
+    // TODO Update class to use - js-toggle-hamburger.
     const toggle = document.querySelector(".hamburger");
     toggle.addEventListener("click", () => {
       body.classList.toggle("page-wrapper--menu-open");
