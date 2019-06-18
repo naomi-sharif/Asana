@@ -19,4 +19,10 @@
     padding: 0 1rem;
     list-style-type: none;
   }
+
+  &__list-item-link {
+  padding-top: $parent-list-item-padding;
+  padding-bottom: $parent-list-item-padding;
+  display: block;
+  }
 }
