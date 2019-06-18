@@ -24,3 +24,22 @@ $border-white: 1px solid $primary-color;
 
 // ANIMATIONS/TRANSITIONS
 $menu-transition-speed: .5s;
+
+// CALCULATED SIZING PROPERTIES
+// This is the calculated height of the hamburger.
+$hamburger-height: 42px;
+
+// This is the 1px border bottom applied to the nav-wrapper.
+$nav-border-bottom: 1px;
+
+// This is the top and bottom padding for the nav in mobile state.
+$mobile-nav-padding: calc(2 * 12px);
+
+// This is the line-height for the list item text.
+$list-item-height: 19px;
+
+// This is the total height of the nav bar in mobile state.
+$mobile-nav-height: calc(#{$hamburger-height} + #{$nav-border-bottom} + #{$mobile-nav-padding});
+
+// This is to be used for top and bottom padding. 
+$parent-list-item-padding: calc((#{$mobile-nav-height} - #{$list-item-height}) / 2);
